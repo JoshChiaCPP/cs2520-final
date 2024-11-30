@@ -7,7 +7,7 @@ def main():
     config = ConfigParser()
     config.read('credentials.ini')
     #api_key = config['gemini_ai']["API_KEY"]
-    api_key = 'AIzaSyD0aO4etqv5ZiDUAP_1V_9v6HQvEkCpsiU' #put api key here, couldn't get config parser to work yet
+    api_key = '' #put api key here, couldn't get config parser to work yet
 
     #create chatbot object
     chatbot = ChatBot(api_key=api_key)
