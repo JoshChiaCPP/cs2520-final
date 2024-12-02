@@ -5,7 +5,7 @@ This is a simple chatbot implementation powered by Google's Generative AI model.
 ## 🛠 Setup Instructions
 
 1. **Clone the Repository**
-   - Clone the project from the following GitHub repository:
+   - Clone the project from the following GitHub repository from the terminal:
      ```bash
      git clone https://github.com/JoshChiaCPP/cs2520-final.git
      ```
@@ -13,11 +13,15 @@ This is a simple chatbot implementation powered by Google's Generative AI model.
      ```bash
      cd cs2520-final
      ```
-
-2. **Prepare Your Environment**
-   - Ensure `app.py` and `chatbot.py` are in the same folder.
-   - Confirm your Python environment has the `google-generativeai` package installed.
-
+2. **Create a virtual environment (optional but recommended)**
+   ```bash
+   python -m venv venv
+3. **Activate the virtual environment**
+   ```bash
+   source venv/bin/activate # For window: venv\Scripts\activate
+4. **Install the required Python packages**
+   ```bash
+   pip install google-generativeai
 3. **Set Up Your API Key**
    - Create a file named `credentials.ini` in the project folder.
    - Insert your API key in the required format inside the `credentials.ini` file.
@@ -25,9 +29,7 @@ This is a simple chatbot implementation powered by Google's Generative AI model.
      [gemini_ai]
      API_KEY = 
      ```
-
 4. **Run the Chatbot**
-   - Open a terminal in the project folder, or navigate there using `cd` in your terminal.
    - Run the command:
      ```bash
      python app.py
@@ -40,3 +42,4 @@ This is a simple chatbot implementation powered by Google's Generative AI model.
 - The `google-generativeai` package installed:
   ```bash
   pip install google-generativeai
+- Visual Studio Code (Recommended)
