@@ -23,8 +23,7 @@ This is a simple chatbot implementation powered by Google's Generative AI model.
    ```bash
    pip install google-generativeai
 3. **Set Up Your API Key**
-   - Create a file named `credentials.ini` in the project folder.
-   - Insert your API key in the required format inside the `credentials.ini` file.
+   - Make sure the file `credentials.ini` is in the project folder, and insert your API key:
      ```bash
      [gemini_ai]
      API_KEY = 
